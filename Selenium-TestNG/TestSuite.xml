@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+<test name="smoke">
+
+
+
+</test>
+
+
+
+
+
+    <test name="Personel Loan">
+        <classes>
+            <class name="com.andrewaliscott.testcase1" />
+            <class name="com.andrewaliscott.testcase2" />
+        </classes>
+    </test>
+
+
+    <test name="CarLoan">
+        <classes>
+
+            <class name="com.andrewaliscott.testcase3"><methods>
+
+            </methods></class>
+
+        </classes>
+    </test>
+
+
+    <test name="Home Loan">
+        <classes>
+
+            <class name="com.andrewaliscott.testcase4" />
+
+        </classes>
+    </test>
+
+</suite>

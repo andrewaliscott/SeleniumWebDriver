@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <listeners>
+        <listener class-name="com.andrewaliscott.Listeners"/>
+    </listeners>
+    <parameter name="URL" value="http://www.amazon.com"/>
+
+    <test name="Regression">
+        <parameter name="URL" value="http://www.amazon.com"/>
+
+        <groups>
+
+            <run>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.andrewaliscott.testcase1" />
+            <class name="com.andrewaliscott.testcase2" />
+            <class name="com.andrewaliscott.testcase3" />
+            <class name="com.andrewaliscott.testcase4" />
+
+        </classes>
+    </test>
+
+
+</suite>
