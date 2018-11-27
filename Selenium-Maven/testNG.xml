@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="Personel Loan">
+        <classes>
+            <class name="testcase_1" />
+            <class name="testcase_2" />
+            <class name="testcase_3" />
+        </classes>
+    </test>
+
+
+</suite>
