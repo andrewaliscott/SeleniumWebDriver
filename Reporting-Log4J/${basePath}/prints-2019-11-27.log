@@ -1,0 +1,10 @@
+
+10:44:21.473 [main] ERROR package1.logTest - Mey
+11:09:56.497 [main] ERROR package1.logTest - Mey
+13:17:14.424 [main] DEBUG package1.logTest - I am logging
+13:17:14.424 [main] INFO  package1.logTest - Object is present
+13:17:14.424 [main] DEBUG package1.logTest - starting
+13:17:14.424 [main] ERROR package1.logTest - Mey
+13:18:12.808 [main] DEBUG package1.logTest - I am logging
+13:18:12.814 [main] INFO  package1.logTest - Object is present
+13:18:12.814 [main] DEBUG package1.logTest - starting
